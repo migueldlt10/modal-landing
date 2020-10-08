@@ -1,3 +1,4 @@
-# modal-landing
-- frfrf
-- frfrfr
+
+# Landing page w/ modal
+- Custom menu slider
+- Added a modal
