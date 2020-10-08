@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="user" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>Miguel's Website</h1>
+
+      <p>
+        This website was for practice building a simple landing page with side
+        menu functionality and a sign up modal.
+      </p>
+
+      <button class="cta-btn" id="open">Sign up</button>
+    </header>
+
+    <div id="container">
+      <h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid,
+        deserunt?
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat
+        deleniti accusantium vel nemo minima numquam. Dignissimos officia
+        perspiciatis non pariatur assumenda, voluptates, eaque rem quae laborum,
+        asperiores nesciunt sed!
+      </p>
+      <h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+        necessitatibus totam deserunt, non iusto tempora?
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+        consequuntur officia reiciendis exercitationem iusto doloremque
+        laudantium repellendus, ipsam molestiae, vel natus minima excepturi
+        asperiores dicta.
+      </p>
+      <h2>Benefits</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>30 day Money back!</li>
+        <li>Customer Support</li>
+      </ul>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusamus
+        dolores facere dicta sapiente provident, alias omnis explicabo maxime
+        pariatur ipsum, cum repellat doloribus. Amet quod dolores nobis
+        excepturi, consequuntur voluptatem velit sequi veritatis accusamus est?
+        Laudantium soluta tempore obcaecati aspernatur. Ab maiores at molestiae
+        delectus culpa expedita sit. Sit, id neque est cum illo quod deserunt
+        nobis rem voluptate accusantium commodi recusandae quae laborum non
+        architecto at? Tempore, cumque.
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>
+            Register with us to get special offers and a bunhc of other shit
+          </p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="form-input"
+                placeholder="Enter Name..."
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="email" placeholder="Enter Email..." />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="text"
+                id="password"
+                placeholder="Enter Password..."
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
